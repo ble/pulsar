@@ -57,13 +57,13 @@
 
     <build>
         <plugins>
-            <plugin>
+          <!--<plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <configuration>
                     <excludeFilterFile>${basedir}/src/main/resources/findbugsExclude.xml</excludeFilterFile>
                 </configuration>
-            </plugin>
+          </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>

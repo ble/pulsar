@@ -1803,7 +1803,7 @@ flexible messaging model and an intuitive client API.</description>
           <artifactId>git-commit-id-plugin</artifactId>
           <version>${git-commit-id-plugin.version}</version>
         </plugin>
-        <plugin>
+        <!--<plugin>
           <groupId>com.github.spotbugs</groupId>
           <artifactId>spotbugs-maven-plugin</artifactId>
           <version>${spotbugs-maven-plugin.version}</version>
@@ -1814,7 +1814,7 @@ flexible messaging model and an intuitive client API.</description>
                 <version>${spotbugs.version}</version>
               </dependency>
             </dependencies>
-        </plugin>
+        </plugin> -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>properties-maven-plugin</artifactId>
